@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+               <!-- Imagem nas CSS --> 
+            </div>
+            <div id="formulario">
+              <h1>
+                Olá, <br>
+                seja bem vindo !
+              </h1> 
+              <h2>
+                Faça o seu login
+              </h2>
+              <form action="login.php" method="post" autocomplete="on">
+                <div class="campo">
+                    <input type="email" name="login" id="ilogin" placeholder="E-mail" autocomplete="email" required maxlength="30">
+                    <label for="ilogin">Login</label>
+                </div>
+                <div class="campo">
+                    <input type="password" name="senha" id="isenha" placeholder="Password" autocomplete="current-password" required minlength="8" maxlength="20">
+                    <label for="isenha">Senha</label>
+                </div>
+                <div>
+                    <a href="esqueci.html" class="botao"> Esqueci a senha 
+                    </a>
+                    <input type="submit" value="Login">
+                    <a href="novoregisto.html" class="botao"> Novo Registo 
+                    </a>
+                </div>
+              </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
